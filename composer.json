@@ -12,6 +12,7 @@
         "humaidem/filament-map-picker": "^0.1.5",
         "laravel/framework": "^11.9",
         "laravel/pulse": "^1.2",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
         "maatwebsite/excel": "^3.1"
     },
