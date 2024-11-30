@@ -8,6 +8,7 @@
         "php": "^8.2",
         "afatmustafa/blade-hugeicons": "^0.0.3",
         "bezhansalleh/filament-shield": "^3.2",
+        "dedoc/scramble": "^0.11.28",
         "filament/filament": "^3.2",
         "humaidem/filament-map-picker": "^0.1.5",
         "laravel/framework": "^11.9",

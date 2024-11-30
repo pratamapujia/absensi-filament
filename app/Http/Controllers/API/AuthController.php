@@ -12,7 +12,18 @@ class AuthController extends Controller
     public function login(Request $request)
     {
         $request->validate([
+            /**
+             * Email
+             * 
+             * @example abi@mail.com
+             */
             'email' => 'required|email',
+
+            /**
+             * Password
+             * 
+             * @example password
+             */
             'password' => 'required'
         ]);
 
@@ -22,7 +33,7 @@ class AuthController extends Controller
             return response()->json([
                 'success' => false,
                 'data' => null,
-                'message' => 'Invalid email or password'
+                'message' => 'The provided credentials are incorrect.'
             ], 422);
         }
 
